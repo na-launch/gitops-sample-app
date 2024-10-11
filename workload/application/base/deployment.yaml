@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/name: meat-helper
     app.kubernetes.io/part-of: meat-helper
 spec:
-  replicas: 1
+  replicas: 10
   selector:
     matchLabels:
       app: meat-helper
