@@ -16,4 +16,4 @@ spec:
     path: workload/application/overlays/default
     repoURL: https://github.com/na-launch/gitops-sample-app.git
     targetRevision: main
-  syncPolicy: {}
+  syncPolicy: none
